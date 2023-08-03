@@ -15,7 +15,7 @@ spec:
         app: calculator
     spec:
       containers:
-      - image: timothyngo/applications
+      - image: timothyngo/applications:calculator
         name: calculator-container
         ports:
         - containerPort: 3000
